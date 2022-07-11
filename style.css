@@ -81,19 +81,6 @@ opacity: .7;
     
 }
 
-.hero{
-    height: 69.2rem;
-    background-size: auto 73.6rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-top: .6rem solid #fff;
-    border-bottom: .6rem solid #fff;
-}
-
-.iphone-11-pro{
-    border-top: none;
-}
-
 .title{
     color: #fff;
     text-align: center;
@@ -115,9 +102,120 @@ opacity: .7;
 
 .title-price{
     font-size: 1.7rem
+    color: #888;
+    margin-top: 1.8rem;
+}
+
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.cta-link{
+    color:#66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+
+.iphone-11{
+    background: url(images/46307-90410-M2-and-MacBook-Air-xl.jpg);
+}
+
+.title-dark{
+    color: rgba(0,0,0,.8);
+}
+
+.cta-link-darker{
+    color:#0070c9;
+}
+.cta-link-darker:hover{
+    border-bottom-color: #0070c9;
+}
+
+.watch{
+    background: url(images/apple-macbook-air-13-2020-m1-295616-768x447.jpg);
+
+}
+.title-heading-watch{
+    height: 7.8rem;
+    background: url(images/the-new-m2-macbook-air-is-up-for-preorder_62c84d0d678fe.png) center no-repeat;
+    background-size: auto 7.8rem;
+    margin-top: 1.6rem;
 }
 
 
+
+
+
+
+
+.hero{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+
+.iphone-11-pro{
+    border-top: none;
+}
+
+
+@media  screen and (max-width: 1068px) {
+    .iphone-11-pro{
+        background: url(images/the-new-m2-macbook-air-is-up-for-preorder_62c84d0d678fe.png);
+    }
+    
+    .iphone-11{
+        background: url(images/top-stories-9jul2022.jpg);
+    }
+
+    .hero{
+        height: 65rem;
+        background-size: auto 69.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .title-heading{
+        font-size: 4.4rem;
+
+    }
+
+    .title-sub-heading{
+        font-size: 2.4rem;
+    }
+
+    .cta-link:nth-child(2){
+        margin-left: 2rem;
+    }
+
+    .title-heading-watch{
+        height: 6.2rem;
+        background: url(images/the-new-m2-macbook-air-is-up-for-preorder_62c84d0d678fe.png) center no-repeat;
+        background-size: auto 6.2rem;
+
+    }
+
+}
+
+@media  screen and (max-width: 767px) {
+header{
+    height: 4.8rem;
+    
+}
+
+}
 
 
 
